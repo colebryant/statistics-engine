@@ -1,6 +1,3 @@
-MPCS 51050: Object Oriented Architecture - Final Project
-Cole Bryant
-
 Distributed Statistics Generator System
 
 The purpose of the project is to load a number of channels with 
