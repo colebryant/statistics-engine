@@ -1,4 +1,4 @@
-Distributed Statistics Generator System
+### Distributed Statistics Generator System
 
 The purpose of the project is to load a number of channels with 
 various stock ticker data statistics that can be consumed selectively by 
@@ -14,7 +14,7 @@ bid prices, bid quantities, ask prices, and ask quantities for three companies:
 Microsoft, Oracle, and IBM. These csv files are read into system via the 
 DataProducer project (from the data inbox) on a one-second delay.
 
-Usage Notes:
+### Usage Notes:
 
 - First, ensure that Apache ActiveMQ is running tcp://localhost:61616
 - Begin by executing the producer class DataProducer.java in the DataProducer
@@ -32,7 +32,7 @@ on its portfolio(s) when it receives new information. These reports are printed
   to standard output. It may be necessary to stop the execution in order to
   inspect the output.
   
-Enterprise Integration Patterns Used:
+### Enterprise Integration Patterns Used:
 
 1) Message/Message Broker/Message Endpoint/Message Channel: Implemented via
 Camel and used to form message queues/topics for the ticker data and 
@@ -56,7 +56,7 @@ java hash map objects
 7) Delay EIP: Utilized in liu of polling consumer. Delays action on message
 received based on given time. 
 
-Design Patterns Used:
+### Design Patterns Used:
 
 1) Singleton: Utilized to force each trading engine to only have a single
 instance of "Reporting Engine". Also implemented for "Statistics Engine"
@@ -72,6 +72,6 @@ stocks
    
 5) Iterator: Used to iterate through the portfolio composite structure
 
-Diagram:
+### Diagram:
 
 <img src="IMG_F0FA39753D9F-1.jpeg" width="600"/>
