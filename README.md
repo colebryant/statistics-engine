@@ -72,6 +72,6 @@ stocks
    
 5) Iterator: Used to iterate through the portfolio composite structure
 
-### Diagram:
+### System Diagram:
 
 <img src="IMG_F0FA39753D9F-1.jpeg" width="600"/>
