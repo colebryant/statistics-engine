@@ -1,4 +1,4 @@
-### Distributed Statistics Generator System
+## Distributed Statistics Generator System
 
 The purpose of the project is to load a number of channels with 
 various stock ticker data statistics that can be consumed selectively by 
